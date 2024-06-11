@@ -1,0 +1,765 @@
+<html lang="en">
+    <head>
+	<link rel="icon" href="c.jpg">
+      <title>New Arrivals-Cotton Jaipur</title>
+     <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	  <!-- FAFA ICON -->
+
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+      * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      margin: 0px;
+      font-family: 'segoe ui';
+    }
+    
+    .nav {
+      height: 50px;
+      width: 100%;
+      background-color: white;
+      position: relative;
+    }
+    
+    .nav > .nav-header {
+      display: inline;
+    }
+    
+    .nav > .nav-header > .nav-title {
+      display: inline-block;
+      font-size: 22px;
+      color: #fff;
+      padding: 10px 10px 10px 10px;
+    }
+    
+    .nav > .nav-btn {
+      display: none;
+    }
+    
+    .nav > .nav-links {
+      display: inline;
+      float: right;
+      font-size: 18px;
+    }
+    
+    .nav > .nav-links > a {
+      display: inline-block;
+      padding: 13px 10px 13px 10px;
+      text-decoration: none;
+      color: #efefef;
+    }
+    
+    .nav > .nav-links > a:hover {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    
+    .nav > #nav-check {
+      display: none;
+    }
+    
+    @media (max-width:600px) {
+      .nav > .nav-btn {
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+      }
+      .nav > .nav-btn > label {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        padding: 13px;
+      }
+      .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+        background-color: rgba(0, 0, 0, 0.3);
+      }
+      .nav > .nav-btn > label > span {
+        display: block;
+        width: 25px;
+        height: 10px;
+        border-top: 2px solid black;
+      }
+      .nav > .nav-links {
+        position: absolute;
+        display: block;
+        width: 100%;
+        background-color: white;
+        height: 0px;
+        transition: all 0.3s ease-in;
+        overflow-y: hidden;
+        top: 50px;
+        left: 0px;
+      }
+      .nav > .nav-links > a {
+        display: block;
+        width: 100%;
+      }
+      .nav > #nav-check:not(:checked) ~ .nav-links {
+        height: 0px;
+      }
+      .nav > #nav-check:checked ~ .nav-links {
+        height: calc(100vh - 50px);
+        overflow-y: auto;
+      }
+    }
+    </style>
+    <style>
+      /* Make the image fully responsive */
+      .carousel-inner img {
+        width: 100%;
+        height: 100%;
+      }
+      </style>
+    <style>
+    body { color: #ccc }
+    .footer-widget p {
+        margin-bottom: 27px;
+    }
+    p {
+        font-family: 'Nunito', sans-serif;
+        font-size: 16px;
+        line-height: 28px;
+    }
+    
+       .animate-border {
+      position: relative;
+      display: block;
+      width: 115px;
+      height: 3px;
+      background: #007bff; }
+    
+    .animate-border:after {
+      position: absolute;
+      content: "";
+      width: 35px;
+      height: 3px;
+      left: 0;
+      bottom: 0;
+      border-left: 10px solid #fff;
+      border-right: 10px solid #fff;
+      -webkit-animation: animborder 2s linear infinite;
+      animation: animborder 2s linear infinite; }
+    
+    @-webkit-keyframes animborder {
+      0% {
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px); }
+      100% {
+        -webkit-transform: translateX(113px);
+        transform: translateX(113px); } }
+    
+    @keyframes animborder {
+      0% {
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px); }
+      100% {
+        -webkit-transform: translateX(113px);
+        transform: translateX(113px); } }
+    
+    .animate-border.border-white:after {
+      border-color: #fff; }
+    
+    .animate-border.border-yellow:after {
+      border-color: #F5B02E; }
+    
+    .animate-border.border-orange:after {
+      border-right-color: #007bff;
+      border-left-color: #007bff; }
+    
+    .animate-border.border-ash:after {
+      border-right-color: #EEF0EF;
+      border-left-color: #EEF0EF; }
+    
+    .animate-border.border-offwhite:after {
+      border-right-color: #F7F9F8;
+      border-left-color: #F7F9F8; }
+    
+    /* Animated heading border */
+    @keyframes primary-short {
+      0% {
+        width: 15%; }
+      50% {
+        width: 90%; }
+      100% {
+        width: 10%; } }
+    
+    @keyframes primary-long {
+      0% {
+        width: 80%; }
+      50% {
+        width: 0%; }
+      100% {
+        width: 80%; } } 
+    
+    .dk-footer {
+      padding: 75px 0 0;
+      background-color: #151414;
+      position: relative;
+      z-index: 2; }
+      .dk-footer .contact-us {
+        margin-top: 0;
+        margin-bottom: 30px;
+        padding-left: 80px; }
+        .dk-footer .contact-us .contact-info {
+          margin-left: 50px; }
+        .dk-footer .contact-us.contact-us-last {
+          margin-left: -80px; }
+      .dk-footer .contact-icon i {
+        font-size: 24px;
+        top: -15px;
+        position: relative;
+        color:#007bff; }
+    
+    .dk-footer-box-info {
+      position: absolute;
+      top: -50px;
+      background: #202020;
+      padding: 40px;
+      z-index: 2; }
+      .dk-footer-box-info .footer-social-link h3 {
+        color: #fff;
+        font-size: 24px;
+        margin-bottom: 25px; }
+      .dk-footer-box-info .footer-social-link ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0; }
+      .dk-footer-box-info .footer-social-link li {
+        display: inline-block; }
+      .dk-footer-box-info .footer-social-link a i {
+        display: block;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 40px;
+        background: #000;
+        margin-right: 5px;
+        color: #fff; }
+        .dk-footer-box-info .footer-social-link a i.fa-facebook {
+          background-color: #3B5998; }
+        .dk-footer-box-info .footer-social-link a i.fa-twitter {
+          background-color: #55ACEE; }
+        .dk-footer-box-info .footer-social-link a i.fa-google-plus {
+          background-color: #DD4B39; }
+        .dk-footer-box-info .footer-social-link a i.fa-linkedin {
+          background-color: #0976B4; }
+        .dk-footer-box-info .footer-social-link a i.fa-instagram {
+          background-color: #B7242A; }
+    
+    .footer-awarad {
+      margin-top: 285px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 100%;
+      -moz-box-flex: 0;
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -moz-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      .footer-awarad p {
+        color: #fff;
+        font-size: 24px;
+        font-weight: 700;
+        margin-left: 20px;
+        padding-top: 15px; }
+    
+    .footer-info-text {
+      margin: 26px 0 32px; }
+    
+    .footer-left-widget {
+      padding-left: 80px; }
+    
+    .footer-widget .section-heading {
+      margin-bottom: 35px; }
+    
+    .footer-widget h3 {
+      font-size: 24px;
+      color: #fff;
+      position: relative;
+      margin-bottom: 15px;
+      max-width: -webkit-fit-content;
+      max-width: -moz-fit-content;
+      max-width: fit-content; }
+    
+    .footer-widget ul {
+      width: 50%;
+      float: left;
+      list-style: none;
+      margin: 0;
+      padding: 0; }
+    
+    .footer-widget li {
+      margin-bottom: 18px; }
+    
+    .footer-widget p {
+      margin-bottom: 27px; }
+    
+    .footer-widget a {
+      color: #878787;
+      -webkit-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s; }
+      .footer-widget a:hover {
+        color: #007bff; }
+    
+    .footer-widget:after {
+      content: "";
+      display: block;
+      clear: both; }
+    
+    .dk-footer-form {
+      position: relative; }
+      .dk-footer-form input[type=email] {
+        padding: 14px 28px;
+        border-radius: 50px;
+        background: #2E2E2E;
+        border: 1px solid #2E2E2E; }
+      .dk-footer-form input::-webkit-input-placeholder, .dk-footer-form input::-moz-placeholder, .dk-footer-form input:-ms-input-placeholder, .dk-footer-form input::-ms-input-placeholder, .dk-footer-form input::-webkit-input-placeholder {
+        color: #878787;
+        font-size: 14px; }
+      .dk-footer-form input::-webkit-input-placeholder, .dk-footer-form input::-moz-placeholder, .dk-footer-form input:-ms-input-placeholder, .dk-footer-form input::-ms-input-placeholder, .dk-footer-form input::placeholder {
+        color: #878787;
+        font-size: 14px; }
+      .dk-footer-form button[type=submit] {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 12px 24px 12px 17px;
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 25px;
+        border: 1px solid #007bff;
+        background: #007bff;
+        color: #fff; }
+      .dk-footer-form button:hover {
+        cursor: pointer; }
+    
+    /* ==========================
+    
+        Contact
+    
+    =============================*/
+    .contact-us {
+      position: relative;
+      z-index: 2;
+      margin-top: 65px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -moz-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+    
+    .contact-icon {
+      position: absolute; }
+      .contact-icon i {
+        font-size: 36px;
+        top: -5px;
+        position: relative;
+        color: #007bff; }
+    
+    .contact-info {
+      margin-left: 75px;
+      color: #fff; }
+      .contact-info h3 {
+        font-size: 20px;
+        color: #fff;
+        margin-bottom: 0; }
+    
+    .copyright {
+      padding: 28px 0;
+      margin-top: 55px;
+      background-color: #202020; }
+      .copyright span,
+      .copyright a {
+        color: #878787;
+        -webkit-transition: all 0.3s linear;
+        -o-transition: all 0.3s linear;
+        transition: all 0.3s linear; }
+      .copyright a:hover {
+        color:#007bff; }
+    
+    .copyright-menu ul {
+      text-align: right;
+      margin: 0; }
+    
+    .copyright-menu li {
+      display: inline-block;
+      padding-left: 20px; }
+    
+    .back-to-top {
+      position: relative;
+      z-index: 2; }
+      .back-to-top .btn-dark {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        padding: 0;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background: #2e2e2e;
+        border-color: #2e2e2e;
+        display: none;
+        z-index: 999;
+        -webkit-transition: all 0.3s linear;
+        -o-transition: all 0.3s linear;
+        transition: all 0.3s linear; }
+        .back-to-top .btn-dark:hover {
+          cursor: pointer;
+          background: #FA6742;
+          border-color: #FA6742; }
+    </style>
+	<script>
+$(document).ready(function(){
+  $("rambo").click(function(){
+    $("p").toggle();
+  });
+});
+</script>
+	</head>
+	<body>
+	      <div class="nav"style="z-index:1;">
+      <input type="checkbox" id="nav-check">
+         <div class="nav-header">
+        <div class="nav-title" style="color:white;margin-top:10px;">
+        <a href="#" target="_blank" > <b style="color:black;">Cottons</b></a>
+        </div>
+      </div>
+      <div class="nav-btn">
+        <label for="nav-check">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+      </div>
+      <div class="nav-links" style="
+    background-color: white;
+">
+        <a href="navbar.html" target="_blank" style="color: black;"><b>New Arrivals</b></a>
+        <a href="navbar.html" target="_blank"style="color: black"><b>Women</b></a>
+        <a href="men.html" target="_blank"style="color: black"><b>Men</b></a>
+        <a href="kids.html" target="_blank"style="color: black"><b>Kids</b></a>
+        <a href="Bags.html" target="_blank"style="color: black"><b>Bags</b></a>
+    <a href="ourstores.html" target="_blank"style="color: black"><b>Our Stores</b></a>
+    
+    
+  
+      <a href="login1.html"target="_blank"><i class="fa fa-user-o" aria-hidden="true" style="margin-top: 13px;margin-left: 331px;font-size: 21px;color:black;"></i></a>
+    
+
+     </div>
+
+
+<rambo><i class="fa fa-search" aria-hidden="true" style="font-size:22px;margin-left: 33px;margin-top: 23px;color:black;"></i></rambo>
+<p style="margin-top:18px;"><input type="text" id="fname" name="fname"style="font-size:20px;color:black;width:120px;"></p>
+    </div>
+		  	<hr>
+			
+			<br>
+<div class="container">
+        <div class="row">
+		 <a href="bag1.html" target="_blank"style="color: black">
+             <div class="col-md-4 >
+                <div class="card">
+                 	<div style="width: 362px; height: 525px; background-image: url('bag1.jpg'); background-repeat: no-repeat; background-size: contain; transition: background-image 0.3s ease;" onmouseover="this.style.backgroundImage = 'url(\'bag.jpg\')';" onmouseout="this.style.backgroundImage = 'url(\'bag1.jpg\')';">
+					</div>
+     
+	      <div class="card-block">
+                        <h6 class="text-bold" style="text-align:center;">Blue Checks Tote Bag <br>₹ 2,390</h6>
+                    </div>
+               </a>
+				  </div>
+		
+            <a href="bag2.html" target="_blank"style="color: black">
+        <div class="col-md-4 >
+		 
+                <div class="card">
+                 	<div style="width: 362px; height: 525px; background-image: url('ttt.jpg'); background-repeat: no-repeat; background-size: contain; transition: background-image 0.3s ease;" onmouseover="this.style.backgroundImage = 'url(\'ttt1.jpg\')';" onmouseout="this.style.backgroundImage = 'url(\'ttt.jpg\')';">
+					</div>
+					
+     
+	      <div class="card-block">
+                         <h6 class="text-bold" style="text-align:center;color:black;">Blue Vegetable Dyed Double Flap Bag<br>₹ 2,390</h6>
+                    </div>
+               </a>
+				  </div>  
+				  
+               
+            <a href="bag3.html" target="_blank"style="color: black">
+                 
+     <div class="col-md-4 >
+	 
+                <div class="card">
+                 	<div style="width: 362px; height: 525px; background-image: url('qqqq.jpg'); background-repeat: no-repeat; background-size: contain; transition: background-image 0.3s ease;" onmouseover="this.style.backgroundImage = 'url(\'qqqq1.jpg\')';" onmouseout="this.style.backgroundImage = 'url(\'qqqq.jpg\')';">
+					</div>
+     
+	      <div class="card-block">
+                       <h6 class="text-bold" style="text-align:center;color:black;">Blue Vegetable Dyed Sling Bag <br> ₹ 2,390</h6>
+					   						
+      
+                    </div>
+                </a>
+
+				  </div>
+
+</div>
+</div>
+
+<br>
+<div class="container">
+        <div class="row">
+		 <a href="bag4.html" target="_blank"style="color: black">
+             <div class="col-md-4 >
+                <div class="card">
+                 	<div style="width: 362px; height: 525px; background-image: url('ii.jpg'); background-repeat: no-repeat; background-size: contain; transition: background-image 0.3s ease;" onmouseover="this.style.backgroundImage = 'url(\'ii1.jpg\')';" onmouseout="this.style.backgroundImage = 'url(\'ii.jpg\')';">
+					</div>
+     
+	      <div class="card-block">
+                        <h6 class="text-bold" style="text-align:center;"> Red Vegetable Dyed Sling Bag<br>₹ 2,390</h6>
+                    </div>
+               </a>
+				  </div>
+		
+            <a href="https://cottonsjaipur.com/collections/new-arrivals/products/red-fiore-kurta" target="_blank"style="color: black">
+       
+				  
+               
+            <a href="bag5.html" target="_blank"style="color: black">
+                 
+     <div class="col-md-4 >
+	 
+                <div class="card">
+                 	<div style="width: 362px; height: 525px; background-image: url('uuu1.jpg'); background-repeat: no-repeat; background-size: contain; transition: background-image 0.3s ease;" onmouseover="this.style.backgroundImage = 'url(\'uuu.jpg\')';" onmouseout="this.style.backgroundImage = 'url(\'uuu1.jpg\')';">
+					</div>
+     
+	      <div class="card-block">
+                       <h6 class="text-bold" style="text-align:center;color:black;">Red Vegetable Dyed Double Flap Bag<br> ₹ 2,390</h6>
+					   						
+      
+                    </div>
+                </a>
+
+				  </div>
+
+</div>
+</div>
+<br>
+
+
+<br>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <footer id="dk-footer" class="dk-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-lg-4">
+                        <div class="dk-footer-box-info">
+                           
+                            </a>
+                            <p class="footer-info-text">
+                                Making a site for helping people to shop differently
+                            </p>
+                            <div class="footer-social-link">
+                                <h3>Follow For Help</h3>
+                                <ul>
+                                    <li>
+                                        <a href="https://www.facebook.com/coronavirus_info">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/covidnewsbymib?lang=en">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.mohfw.gov.in/pdf/coronvavirushelplinenumber.pdf">
+                                            <i class="fa fa-youtube"></i>
+                                        </a>
+                                    </li>
+                                   
+                                    <li>
+                                        <a href="https://about.instagram.com/blog/announcements/coronavirus-keeping-people-safe-informed-and-supported-on-instagram">
+                                            <i class="fa fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="footer-awarad">
+                            <img src="images/icon/best.png" alt="">
+                            <p>#Start Shopping<p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-12 col-lg-8">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="contact-us">
+                                    <div class="contact-icon">
+                                        <i class="fa fa-map-o" aria-hidden="true"></i>
+                                    </div>
+                                    
+                                    <div class="contact-info">
+                                        <h3>shop</h3>
+                                        <p>--For all--</p>
+                                    </div>
+                                    
+                                </div>
+                                
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <div class="contact-us contact-us-last">
+                                    <div class="contact-icon">
+                                        <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                                    </div>
+                                    
+                                    <div class="contact-info">
+                                        <h3>+91 11 23978046 (Toll Free- 1075)</h3>
+                                        <p>Helpline</p>
+                                    </div>
+                                    
+                                </div>
+                                
+                            </div>
+                           
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-md-12 col-lg-6">
+                                <div class="footer-widget footer-left-widget">
+                                    <div class="section-heading">
+                                        <h3>Useful Links</h3>
+                                        <span class="animate-border border-black"></span>
+                                    </div>
+                                    <ul>
+                                        <li>
+                                            <a href="https://selfregistration.cowin.gov.in/">Privacy Policy</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://prod-cdn.preprod.co-vin.in/assets/docx/CoWINAPIGuidelinesFinal.pdf">Terms and Conditions</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://prod-cdn.preprod.co-vin.in/assets/pdf/Dos_and_Donts_for_Citizens.pdf">Shipping Policy</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://verify.cowin.gov.in/">Journal</a>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li>
+                                            <a href="https://dashboard.cowin.gov.in/">Statistics</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.cdc.gov/coronavirus/2019-ncov/vaccines/expect/after.html">our stores</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://sandbox.cowin.gov.in/">Payment</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.cowin.gov.in/faq">Faq</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                               
+                            </div>
+                           
+                            <div class="col-md-12 col-lg-6">
+                                <div class="footer-widget">
+                                    <div class="section-heading">
+                                        <h3>Our Motive</h3>
+                                        <span class="animate-border border-black"></span>
+                                    </div>
+                                    <p>
+                                    Making a site for helping shopping expiriance beautiful</p>
+                                    <form action="#">
+                                        <div class="form-row">
+                                            <div class="col dk-footer-form">
+                                                <input type="email" class="form-control" placeholder="Home">
+                                                <button type="submit">
+                                                    <i class="fa fa-send"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                    
+                                </div>
+                                
+                            </div>
+                           
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                
+            </div>
+            
+    
+    
+            <div class="copyright">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span>Copyright © 2021 FastVaccine. All Rights Reserved</span>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <div class="copyright-menu">
+                                <ul>
+                                    <li>
+                                        <a href="#">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://dashboard.cowin.gov.in/">Statistics</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.euro.who.int/__data/assets/pdf_file/0010/437608/Alcohol-and-COVID-19-what-you-need-to-know.pdf">Avoid Alcohol</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.cowin.gov.in/#howcanweHelp">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                
+            </div>
+            
+            <div id="back-to-top" class="back-to-top">
+            <a href="#">
+                <button class="btn btn-dark" title="Back to Top" style="display: block;">
+                    <i class="fa fa-angle-up"></i>
+                </button>
+                </a>
+            </div>
+            
+    </footer>
+
+	</body>
+	</html>

@@ -1,0 +1,1340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <link rel="icon" href="c.jpg">
+    <title>dress4</title>
+ <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+      <!-- FAFA ICON -->
+      
+
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      
+      <!-- carousel --->
+      
+
+
+
+
+    <!-- Favicon -->
+
+    <!-- Plugins CSS File -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="assets/css/plugins/magnific-popup/magnific-popup.css">
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/plugins/nouislider/nouislider.css">
+
+<style>
+
+      <style>
+      * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      margin: 0px;
+      font-family: 'segoe ui';
+    }
+    
+    .nav {
+      height: 50px;
+      width: 100%;
+      background-color: white;
+      position: relative;
+    }
+    
+    .nav > .nav-header {
+      display: inline;
+    }
+    
+    .nav > .nav-header > .nav-title {
+      display: inline-block;
+      font-size: 22px;
+      color: #fff;
+      padding: 10px 10px 10px 10px;
+    }
+    
+    .nav > .nav-btn {
+      display: none;
+    }
+    
+    .nav > .nav-links {
+      display: inline;
+      float: right;
+      font-size: 18px;
+    }
+    
+    .nav > .nav-links > a {
+      display: inline-block;
+      padding: 13px 10px 13px 10px;
+      text-decoration: none;
+      color: #efefef;
+    }
+    
+    .nav > .nav-links > a:hover {
+   
+    }
+    
+    .nav > #nav-check {
+      display: none;
+    }
+    
+    @media (max-width:600px) {
+      .nav > .nav-btn {
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+      }
+      .nav > .nav-btn > label {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        padding: 13px;
+      }
+      .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+        background-color: rgba(0, 0, 0, 0.3);
+      }
+      .nav > .nav-btn > label > span {
+        display: block;
+        width: 25px;
+        height: 10px;
+        border-top: 2px solid black;
+      }
+      .nav > .nav-links {
+        position: absolute;
+        display: block;
+        width: 100%;
+        background-color: #333;
+        height: 0px;
+        transition: all 0.3s ease-in;
+        overflow-y: hidden;
+        top: 50px;
+        left: 0px;
+      }
+      .nav > .nav-links > a {
+        display: block;
+        width: 100%;
+      }
+      .nav > #nav-check:not(:checked) ~ .nav-links {
+        height: 0px;
+      }
+      .nav > #nav-check:checked ~ .nav-links {
+        height: calc(100vh - 50px);
+        overflow-y: auto;
+      }
+    }
+    </style>
+    <script>
+$(document).ready(function(){
+  $("rambo").click(function(){
+    $("p").toggle();
+  });
+});
+</script>
+
+<style >
+     body { color: #ccc }
+    .footer-widget p {
+        margin-bottom: 27px;
+    }
+    p {
+        font-family: 'Nunito', sans-serif;
+        font-size: 16px;
+        line-height: 28px;
+    }
+    
+       .animate-border {
+      position: relative;
+      display: block;
+      width: 115px;
+      height: 3px;
+      background: #007bff; }
+    
+    .animate-border:after {
+      position: absolute;
+      content: "";
+      width: 35px;
+      height: 3px;
+      left: 0;
+      bottom: 0;
+      border-left: 10px solid #fff;
+      border-right: 10px solid #fff;
+      -webkit-animation: animborder 2s linear infinite;
+      animation: animborder 2s linear infinite; }
+    
+    @-webkit-keyframes animborder {
+      0% {
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px); }
+      100% {
+        -webkit-transform: translateX(113px);
+        transform: translateX(113px); } }
+    
+    @keyframes animborder {
+      0% {
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px); }
+      100% {
+        -webkit-transform: translateX(113px);
+        transform: translateX(113px); } }
+    
+    .animate-border.border-white:after {
+      border-color: #fff; }
+    
+    .animate-border.border-yellow:after {
+      border-color: #F5B02E; }
+    
+    .animate-border.border-orange:after {
+      border-right-color: #007bff;
+      border-left-color: #007bff; }
+    
+    .animate-border.border-ash:after {
+      border-right-color: #EEF0EF;
+      border-left-color: #EEF0EF; }
+    
+    .animate-border.border-offwhite:after {
+      border-right-color: #F7F9F8;
+      border-left-color: #F7F9F8; }
+    
+    /* Animated heading border */
+    @keyframes primary-short {
+      0% {
+        width: 15%; }
+      50% {
+        width: 90%; }
+      100% {
+        width: 10%; } }
+    
+    @keyframes primary-long {
+      0% {
+        width: 80%; }
+      50% {
+        width: 0%; }
+      100% {
+        width: 80%; } } 
+    
+    .dk-footer {
+      padding: 75px 0 0;
+      background-color: #151414;
+      position: relative;
+      z-index: 2; }
+      .dk-footer .contact-us {
+        margin-top: 0;
+        margin-bottom: 30px;
+        padding-left: 80px; }
+        .dk-footer .contact-us .contact-info {
+          margin-left: 50px; }
+        .dk-footer .contact-us.contact-us-last {
+          margin-left: -80px; }
+      .dk-footer .contact-icon i {
+        font-size: 24px;
+        top: -15px;
+        position: relative;
+        color:#007bff; }
+    
+    .dk-footer-box-info {
+      position: absolute;
+      top: -50px;
+      background: #202020;
+      padding: 40px;
+      z-index: 2; }
+      .dk-footer-box-info .footer-social-link h3 {
+        color: #fff;
+        font-size: 24px;
+        margin-bottom: 25px; }
+      .dk-footer-box-info .footer-social-link ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0; }
+      .dk-footer-box-info .footer-social-link li {
+        display: inline-block; }
+      .dk-footer-box-info .footer-social-link a i {
+        display: block;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 40px;
+        background: #000;
+        margin-right: 5px;
+        color: #fff; }
+        .dk-footer-box-info .footer-social-link a i.fa-facebook {
+          background-color: #3B5998; }
+        .dk-footer-box-info .footer-social-link a i.fa-twitter {
+          background-color: #55ACEE; }
+        .dk-footer-box-info .footer-social-link a i.fa-google-plus {
+          background-color: #DD4B39; }
+        .dk-footer-box-info .footer-social-link a i.fa-linkedin {
+          background-color: #0976B4; }
+        .dk-footer-box-info .footer-social-link a i.fa-instagram {
+          background-color: #B7242A; }
+    
+    .footer-awarad {
+      margin-top: 285px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 100%;
+      -moz-box-flex: 0;
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -moz-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      .footer-awarad p {
+        color: #fff;
+        font-size: 24px;
+        font-weight: 700;
+        margin-left: 20px;
+        padding-top: 15px; }
+    
+    .footer-info-text {
+      margin: 26px 0 32px; }
+    
+    .footer-left-widget {
+      padding-left: 80px; }
+    
+    .footer-widget .section-heading {
+      margin-bottom: 35px; }
+    
+    .footer-widget h3 {
+      font-size: 24px;
+      color: #fff;
+      position: relative;
+      margin-bottom: 15px;
+      max-width: -webkit-fit-content;
+      max-width: -moz-fit-content;
+      max-width: fit-content; }
+    
+    .footer-widget ul {
+      width: 50%;
+      float: left;
+      list-style: none;
+      margin: 0;
+      padding: 0; }
+    
+    .footer-widget li {
+      margin-bottom: 18px; }
+    
+    .footer-widget p {
+      margin-bottom: 27px; }
+    
+    .footer-widget a {
+      color: #878787;
+      -webkit-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s; }
+      .footer-widget a:hover {
+        color: #007bff; }
+    
+    .footer-widget:after {
+      content: "";
+      display: block;
+      clear: both; }
+    
+    .dk-footer-form {
+      position: relative; }
+      .dk-footer-form input[type=email] {
+        padding: 14px 28px;
+        border-radius: 50px;
+        background: #2E2E2E;
+        border: 1px solid #2E2E2E; }
+      .dk-footer-form input::-webkit-input-placeholder, .dk-footer-form input::-moz-placeholder, .dk-footer-form input:-ms-input-placeholder, .dk-footer-form input::-ms-input-placeholder, .dk-footer-form input::-webkit-input-placeholder {
+        color: #878787;
+        font-size: 14px; }
+      .dk-footer-form input::-webkit-input-placeholder, .dk-footer-form input::-moz-placeholder, .dk-footer-form input:-ms-input-placeholder, .dk-footer-form input::-ms-input-placeholder, .dk-footer-form input::placeholder {
+        color: #878787;
+        font-size: 14px; }
+      .dk-footer-form button[type=submit] {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 12px 24px 12px 17px;
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 25px;
+        border: 1px solid #007bff;
+        background: #007bff;
+        color: #fff; }
+      .dk-footer-form button:hover {
+        cursor: pointer; }
+    
+    /* ==========================
+    
+        Contact
+    
+    =============================*/
+    .contact-us {
+      position: relative;
+      z-index: 2;
+      margin-top: 65px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -moz-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+    
+    .contact-icon {
+      position: absolute; }
+      .contact-icon i {
+        font-size: 36px;
+        top: -5px;
+        position: relative;
+        color: #007bff; }
+    
+    .contact-info {
+      margin-left: 75px;
+      color: #fff; }
+      .contact-info h3 {
+        font-size: 20px;
+        color: #fff;
+        margin-bottom: 0; }
+    
+    .copyright {
+      padding: 28px 0;
+      margin-top: 55px;
+      background-color: #202020; }
+      .copyright span,
+      .copyright a {
+        color: #878787;
+        -webkit-transition: all 0.3s linear;
+        -o-transition: all 0.3s linear;
+        transition: all 0.3s linear; }
+      .copyright a:hover {
+        color:#007bff; }
+    
+    .copyright-menu ul {
+      text-align: right;
+      margin: 0; }
+    
+    .copyright-menu li {
+      display: inline-block;
+      padding-left: 20px; }
+    
+    .back-to-top {
+      position: relative;
+      z-index: 2; }
+      .back-to-top .btn-dark {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        padding: 0;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background: #2e2e2e;
+        border-color: #2e2e2e;
+        display: none;
+        z-index: 999;
+        -webkit-transition: all 0.3s linear;
+        -o-transition: all 0.3s linear;
+        transition: all 0.3s linear; }
+        .back-to-top .btn-dark:hover {
+          cursor: pointer;
+          background: #FA6742;
+          border-color: #FA6742; }
+</style>
+
+
+</head>
+
+<body>
+
+     <div class="nav"style="z-index:1;">
+      <input type="checkbox" id="nav-check">
+         <div class="nav-header">
+        <div class="nav-title" style="color:white;margin-top:10px;">
+        <a href="clothhome.html" target="_blank" > <b style="color:black;">Cottons</b></a>
+        </div>
+      </div>
+      <div class="nav-btn">
+        <label for="nav-check">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+      </div>
+      <div class="nav-links" style="
+    background-color: white;
+">
+        <a href="navbar.html" target="_blank" style="color: black;"><b>New Arrivals</b></a>
+        <a href="navbar.html" target="_blank"style="color: black"><b>Women</b></a>
+        <a href="men.html" target="_blank"style="color: black"><b>Men</b></a>
+        <a href="kids.html" target="_blank"style="color: black"><b>Kids</b></a>
+        <a href="Bags.html" target="_blank"style="color: black"><b>Bags</b></a>
+        <a href="ourstores.html" target="_blank"style="color: black"><b>Our Stores</b></a>
+        
+        
+    
+        <a href="login1.html"target="_blank"><i class="fa fa-user-o" aria-hidden="true" style="margin-top: 13px;margin-left: 331px;font-size: 21px;color:black;"></i></a>
+    
+
+     </div>
+
+
+<rambo><i class="fa fa-search" aria-hidden="true" style="font-size:22px;margin-left: 33px;margin-top: 23px;color:black;"></i></rambo>
+<p style="margin-top:18px;"><input type="text" id="fname" name="fname"style="font-size:20px;color:black;width:120px;"></p>
+    </div>
+<hr>
+    <br><br><br>
+    <div class="page-wrapper">
+        
+
+        <main class="main">
+            <!-- End .breadcrumb-nav -->
+
+            <div class="page-content">
+                <div class="container">
+                    <div class="product-details-top">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="product-gallery product-gallery-vertical">
+                                    <div class="row">
+                                        <figure class="product-main-image">
+                                            <img id="product-zoom" src="assets/images/products/single/grey.jpg" data-zoom-image="assets/images/products/single/x" alt="product image">
+
+                                            <a href="#" id="btn-product-gallery" class="btn-product-gallery">
+                                                <i class="icon-arrows"></i>
+                                            </a>
+                                        </figure><!-- End .product-main-image -->
+
+                                        <div id="product-zoom-gallery" class="product-image-gallery">
+                                            <a class="product-gallery-item" href="#" data-image="assets/images/products/single/grey.jpg" data-zoom-image="assets/images/products/single/grey.jpg">
+                                                <img src="assets/images/products/single/grey.jpg" alt="product cross">
+                                            </a>
+
+                                            <a class="product-gallery-item" href="#" data-image="assets/images/products/single/grey.jpg" data-zoom-image="assets/images/products/single/grey.jpg">
+                                                <img src="assets/images/products/single/grey.jpg" alt="product cross">
+                                            </a>
+
+                                            <a class="product-gallery-item" href="#" data-image="assets/images/products/single/grey.jpg" data-zoom-image="assets/images/products/single/grey.jpg">
+                                                <img src="assets/images/products/single/grey.jpg" alt="product with model">
+                                            </a>
+
+                                            <a class="product-gallery-item" href="#" data-image="assets/images/products/single/grey.jpg" data-zoom-image="assets/images/products/single/grey.jpg">
+                                                <img src="assets/images/products/single/grey.jpg" alt="product back">
+                                            </a>
+                                        </div><!-- End .product-image-gallery -->
+                                    </div><!-- End .row -->
+                                </div><!-- End .product-gallery -->
+                            </div><!-- End .col-md-6 -->
+
+                            <div class="col-md-6">
+                                <div class="product-details">
+                                    <h1 class="product-title">Poppy Pleated kurta
+</h1><!-- End .product-title -->
+
+                                    <div class="ratings-container">
+                                        <div class="ratings">
+                                            <div class="ratings-val" style="width: 80%;"></div><!-- End .ratings-val -->
+                                        </div><!-- End .ratings -->
+                                        <a class="ratings-text" href="#product-review-link" id="review-link">( 2 Reviews )</a>
+                                    </div><!-- End .rating-container -->
+
+                                    <div class="product-price">
+                                        ₹ 2390
+                                    </div><!-- End .product-price -->
+
+                                    <div class="product-content">
+                                        
+                                    </div><!-- End .product-content -->
+
+                                    <div class="details-filter-row details-row-size">
+                                        <label>Color:</label>
+
+                                        <div class="product-nav product-nav-thumbs">
+                                            <a href="#" >
+                                                <img src="assets/images/products/single/grey.jpg" alt="product desc">
+                                            </a>
+                                            <a href="#">
+                                                <img src="assets/images/products/single/grey.jpg" alt="product desc">
+                                            </a>
+                                        </div><!-- End .product-nav -->
+                                    </div><!-- End .details-filter-row -->
+
+                                    <div class="details-filter-row details-row-size">
+                                        <label for="size">Size:</label>
+                                        <div class="select-custom">
+                                            <select name="size" id="size" class="form-control">
+                                                <option value="#" selected="selected">Select a size</option>
+                                                <option value="s">Small</option>
+                                                <option value="m">Medium</option>
+                                                <option value="l">Large</option>
+                                                <option value="xl">Extra Large</option>
+                                            </select>
+                                        </div><!-- End .select-custom -->
+
+                                        <a href="#" class="size-guide"><i class="icon-th-list"></i>size guide</a>
+                                    </div><!-- End .details-filter-row -->
+
+                                    <div class="details-filter-row details-row-size">
+                                        <label for="qty">Qty:</label>
+                                        <div class="product-details-quantity">
+                                            <input type="number" id="qty" class="form-control" value="1" min="1" max="10" step="1" data-decimals="0" required>
+                                        </div><!-- End .product-details-quantity -->
+                                    </div><!-- End .details-filter-row -->
+
+                                    <div class="product-details-action">
+                                        <a href="bill4.html" class="btn-product btn-cart"><span>buy now</span></a>
+
+                                        <div class="details-action-wrapper">
+                                            <a href="#" class="btn-product btn-wishlist" title="Wishlist"><span>Add to Wishlist</span></a>
+                                            <a href="#" class="btn-product btn-compare" title="Compare"><span>Add to Compare</span></a>
+                                        </div><!-- End .details-action-wrapper -->
+                                    </div><!-- End .product-details-action -->
+
+                                    <div class="product-details-footer">
+                                        <div class="product-cat">
+                                            <span>Category:</span>
+                                            <a href="#">Women</a>,
+                                            <a href="#">Dresses</a>
+                                        </div><!-- End .product-cat -->
+
+                                        <div class="social-icons social-icons-sm">
+                                            <span class="social-label">Share:</span>
+                                            <a href="#" class="social-icon" title="Facebook" target="_blank"><i class="icon-facebook-f"></i></a>
+                                            <a href="#" class="social-icon" title="Twitter" target="_blank"><i class="icon-twitter"></i></a>
+                                            <a href="#" class="social-icon" title="Instagram" target="_blank"><i class="icon-instagram"></i></a>
+                                            <a href="#" class="social-icon" title="Pinterest" target="_blank"><i class="icon-pinterest"></i></a>
+                                        </div>
+                                    </div><!-- End .product-details-footer -->
+                                </div><!-- End .product-details -->
+                            </div><!-- End .col-md-6 -->
+                        </div><!-- End .row -->
+                    </div><!-- End .product-details-top -->
+
+                    
+
+                    <h2 class="title text-center mb-4">You May Also Like</h2><!-- End .title text-center -->
+
+                    <div class="owl-carousel owl-simple carousel-equal-height carousel-with-shadow" data-toggle="owl" 
+                        data-owl-options='{
+                            "nav": false, 
+                            "dots": true,
+                            "margin": 20,
+                            "loop": false,
+                            "responsive": {
+                                "0": {
+                                    "items":1
+                                },
+                                "480": {
+                                    "items":2
+                                },
+                                "768": {
+                                    "items":3
+                                },
+                                "992": {
+                                    "items":4
+                                },
+                                "1200": {
+                                    "items":4,
+                                    "nav": true,
+                                    "dots": false
+                                }
+                            }
+                        }'>
+                        <div class="product product-7 text-center">
+                            <figure class="product-media">
+                                <span class="product-label label-new">New</span>
+                                <a href="product.html">
+                                    <img src="assets/images/products/grey.jpg" alt="Product image" class="product-image">
+                                </a>
+
+                                <div class="product-action-vertical">
+                                    <a href="#" class="btn-product-icon btn-wishlist btn-expandable"><span>add to wishlist</span></a>
+                                    <a href="popup/quickView.html" class="btn-product-icon btn-quickview" title="Quick view"><span>Quick view</span></a>
+                                    <a href="#" class="btn-product-icon btn-compare" title="Compare"><span>Compare</span></a>
+                                </div><!-- End .product-action-vertical -->
+
+                                <div class="product-action">
+                                    <a href="#" class="btn-product btn-cart"><span>add to cart</span></a>
+                                </div><!-- End .product-action -->
+                            </figure><!-- End .product-media -->
+
+                            <div class="product-body">
+                                <div class="product-cat">
+                                    
+                                </div><!-- End .product-cat -->
+                                <h3 class="product-title"><a href="product.html">Poppy Pleated kurta<br></a></h3><!-- End .product-title -->
+                                <div class="product-price">
+                                    2390
+                                </div><!-- End .product-price -->
+                                <div class="ratings-container">
+                                    <div class="ratings">
+                                        <div class="ratings-val" style="width: 20%;"></div><!-- End .ratings-val -->
+                                    </div><!-- End .ratings -->
+                                    <span class="ratings-text">( 2 Reviews )</span>
+                                </div><!-- End .rating-container -->
+
+                                <!-- End .product-nav -->
+                            </div><!-- End .product-body -->
+                        </div><!-- End .product -->
+
+                        <div class="product product-7 text-center">
+                            <figure class="product-media">
+                              
+                                <a href="product.html">
+                                    <img src="assets/images/products/dot.jpg" alt="Product image" class="product-image">
+                                </a>
+
+                                <div class="product-action-vertical">
+                                    <a href="#" class="btn-product-icon btn-wishlist btn-expandable"><span>add to wishlist</span></a>
+                                    <a href="popup/quickView.html" class="btn-product-icon btn-quickview" title="Quick view"><span>Quick view</span></a>
+                                    <a href="#" class="btn-product-icon btn-compare" title="Compare"><span>Compare</span></a>
+                                </div><!-- End .product-action-vertical -->
+
+                                <div class="product-action">
+                                    <a href="#" class="btn-product btn-cart"><span>add to cart</span></a>
+                                </div><!-- End .product-action -->
+                            </figure><!-- End .product-media -->
+
+                            <div class="product-body">
+                                <div class="product-cat">
+                                   
+                                </div><!-- End .product-cat -->
+                                <h3 class="product-title"><a href="product.html">Pearsian pink panel kurta</a></h3><!-- End .product-title -->
+                                <div class="product-price">
+                                    <span >2390</span>
+                                </div><!-- End .product-price -->
+                                <div class="ratings-container">
+                                    <div class="ratings">
+                                        <div class="ratings-val" style="width: 80%;"></div><!-- End .ratings-val -->
+                                    </div><!-- End .ratings -->
+                                    <span class="ratings-text">( 6 Reviews )</span>
+                                </div><!-- End .rating-container -->
+                            </div><!-- End .product-body -->
+                        </div><!-- End .product -->
+
+                        <div class="product product-7 text-center">
+                            <figure class="product-media">
+                                <span class="product-label label-top">Top</span>
+                                <a href="product.html">
+                                    <img src="assets/images/products/single/red.jpg" alt="Product image" class="product-image">
+                                </a>
+
+                                <div class="product-action-vertical">
+                                    <a href="#" class="btn-product-icon btn-wishlist btn-expandable"><span>add to wishlist</span></a>
+                                    <a href="popup/quickView.html" class="btn-product-icon btn-quickview" title="Quick view"><span>Quick view</span></a>
+                                    <a href="#" class="btn-product-icon btn-compare" title="Compare"><span>Compare</span></a>
+                                </div><!-- End .product-action-vertical -->
+
+                                <div class="product-action">
+                                    <a href="#" class="btn-product btn-cart"><span>add to cart</span></a>
+                                </div><!-- End .product-action -->
+                            </figure><!-- End .product-media -->
+
+                            <div class="product-body">
+                                <div class="product-cat">
+                                    
+                                </div><!-- End .product-cat -->
+                                <h3 class="product-title"><a href="product.html">Red Fiore kurta</a></h3><!-- End .product-title -->
+                                <div class="product-price">
+                                    2390
+                                </div><!-- End .product-price -->
+                                <div class="ratings-container">
+                                    <div class="ratings">
+                                        <div class="ratings-val" style="width: 80%;"></div><!-- End .ratings-val -->
+                                    </div><!-- End .ratings -->
+                                    <span class="ratings-text">( 1 Reviews )</span>
+                                </div><!-- End .rating-container -->
+
+                                <!-- End .product-nav -->
+                            </div><!-- End .product-body -->
+                        </div><!-- End .product -->
+
+                        <div class="product product-7 text-center">
+                            <figure class="product-media">
+                                <a href="product.html">
+                                    <img src="assets/images/products/rip.jpg" alt="Product image" class="product-image">
+                                </a>
+
+                                <div class="product-action-vertical">
+                                    <a href="#" class="btn-product-icon btn-wishlist btn-expandable"><span>add to wishlist</span></a>
+                                    <a href="popup/quickView.html" class="btn-product-icon btn-quickview" title="Quick view"><span>Quick view</span></a>
+                                    <a href="#" class="btn-product-icon btn-compare" title="Compare"><span>Compare</span></a>
+                                </div><!-- End .product-action-vertical -->
+
+                                <div class="product-action">
+                                    <a href="#" class="btn-product btn-cart"><span>add to cart</span></a>
+                                </div><!-- End .product-action -->
+                            </figure><!-- End .product-media -->
+
+                            <div class="product-body">
+                                <div class="product-cat">
+                                    
+                                </div><!-- End .product-cat -->
+                                <h3 class="product-title"><a href="product.html">Striped Pink kurta</a></h3><!-- End .product-title -->
+                                <div class="product-price">
+                                    2390
+                                </div><!-- End .product-price -->
+                                <div class="ratings-container">
+                                    <div class="ratings">
+                                        <div class="ratings-val" style="width: 0%;"></div><!-- End .ratings-val -->
+                                    </div><!-- End .ratings -->
+                                    <span class="ratings-text">( 0 Reviews )</span>
+                                </div><!-- End .rating-container -->
+                            </div><!-- End .product-body -->
+                        </div><!-- End .product -->
+
+                        <div class="product product-7 text-center">
+                            <figure class="product-media">
+                                <a href="product.html">
+                                    <img src="assets/images/products/sip.jpg" alt="Product image" class="product-image">
+                                </a>
+
+                                <div class="product-action-vertical">
+                                    <a href="#" class="btn-product-icon btn-wishlist btn-expandable"><span>add to wishlist</span></a>
+                                    <a href="popup/quickView.html" class="btn-product-icon btn-quickview" title="Quick view"><span>Quick view</span></a>
+                                    <a href="#" class="btn-product-icon btn-compare" title="Compare"><span>Compare</span></a>
+                                </div><!-- End .product-action-vertical -->
+
+                                <div class="product-action">
+                                    <a href="#" class="btn-product btn-cart"><span>add to cart</span></a>
+                                </div><!-- End .product-action -->
+                            </figure><!-- End .product-media -->
+
+                            <div class="product-body">
+                                <div class="product-cat">
+                                    
+                                </div><!-- End .product-cat -->
+                                <h3 class="product-title"><a href="product.html">Presian pink Boota Dress</a></h3><!-- End .product-title -->
+                                <div class="product-price">
+                                    2390
+                                </div><!-- End .product-price -->
+                                <div class="ratings-container">
+                                    <div class="ratings">
+                                        <div class="ratings-val" style="width: 20%;"></div><!-- End .ratings-val -->
+                                    </div><!-- End .ratings -->
+                                    <span class="ratings-text">( 2 Reviews )</span>
+                                </div><!-- End .rating-container -->
+                            </div><!-- End .product-body -->
+                        </div><!-- End .product -->
+                    </div><!-- End .owl-carousel -->
+                </div><!-- End .container -->
+            </div><!-- End .page-content -->
+        </main><!-- End .main -->
+
+      
+    </div><!-- End .page-wrapper -->
+    <button id="scroll-top" title="Back to Top"><i class="icon-arrow-up"></i></button>
+
+    <!-- Sticky Bar -->
+  
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu-overlay"></div><!-- End .mobil-menu-overlay -->
+
+    <div class="mobile-menu-container">
+        <div class="mobile-menu-wrapper">
+            <span class="mobile-menu-close"><i class="icon-close"></i></span>
+
+            <form action="#" method="get" class="mobile-search">
+                <label for="mobile-search" class="sr-only">Search</label>
+                <input type="search" class="form-control" name="mobile-search" id="mobile-search" placeholder="Search in..." required>
+                <button class="btn btn-primary" type="submit"><i class="icon-search"></i></button>
+            </form>
+            
+            <nav class="mobile-nav">
+                <ul class="mobile-menu">
+                    <li class="active">
+                        <a href="index.html">Home</a>
+
+                        <ul>
+                            <li><a href="index-1.html">01 - furniture store</a></li>
+                            <li><a href="index-2.html">02 - furniture store</a></li>
+                            <li><a href="index-3.html">03 - electronic store</a></li>
+                            <li><a href="index-4.html">04 - electronic store</a></li>
+                            <li><a href="index-5.html">05 - fashion store</a></li>
+                            <li><a href="index-6.html">06 - fashion store</a></li>
+                            <li><a href="index-7.html">07 - fashion store</a></li>
+                            <li><a href="index-8.html">08 - fashion store</a></li>
+                            <li><a href="index-9.html">09 - fashion store</a></li>
+                            <li><a href="index-10.html">10 - shoes store</a></li>
+                            <li><a href="index-11.html">11 - furniture simple store</a></li>
+                            <li><a href="index-12.html">12 - fashion simple store</a></li>
+                            <li><a href="index-13.html">13 - market</a></li>
+                            <li><a href="index-14.html">14 - market fullwidth</a></li>
+                            <li><a href="index-15.html">15 - lookbook 1</a></li>
+                            <li><a href="index-16.html">16 - lookbook 2</a></li>
+                            <li><a href="index-17.html">17 - fashion store</a></li>
+                            <li><a href="index-18.html">18 - fashion store (with sidebar)</a></li>
+                            <li><a href="index-19.html">19 - games store</a></li>
+                            <li><a href="index-20.html">20 - book store</a></li>
+                            <li><a href="index-21.html">21 - sport store</a></li>
+                            <li><a href="index-22.html">22 - tools store</a></li>
+                            <li><a href="index-23.html">23 - fashion left navigation store</a></li>
+                            <li><a href="index-24.html">24 - extreme sport store</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="category.html">Shop</a>
+                        <ul>
+                            <li><a href="category-list.html">Shop List</a></li>
+                            <li><a href="category-2cols.html">Shop Grid 2 Columns</a></li>
+                            <li><a href="category.html">Shop Grid 3 Columns</a></li>
+                            <li><a href="category-4cols.html">Shop Grid 4 Columns</a></li>
+                            <li><a href="category-boxed.html"><span>Shop Boxed No Sidebar<span class="tip tip-hot">Hot</span></span></a></li>
+                            <li><a href="category-fullwidth.html">Shop Fullwidth No Sidebar</a></li>
+                            <li><a href="product-category-boxed.html">Product Category Boxed</a></li>
+                            <li><a href="product-category-fullwidth.html"><span>Product Category Fullwidth<span class="tip tip-new">New</span></span></a></li>
+                            <li><a href="cart.html">Cart</a></li>
+                            <li><a href="checkout.html">Checkout</a></li>
+                            <li><a href="wishlist.html">Wishlist</a></li>
+                            <li><a href="#">Lookbook</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="product.html" class="sf-with-ul">Product</a>
+                        <ul>
+                            <li><a href="product.html">Default</a></li>
+                            <li><a href="product-centered.html">Centered</a></li>
+                            <li><a href="product-extended.html"><span>Extended Info<span class="tip tip-new">New</span></span></a></li>
+                            <li><a href="product-gallery.html">Gallery</a></li>
+                            <li><a href="product-sticky.html">Sticky Info</a></li>
+                            <li><a href="product-sidebar.html">Boxed With Sidebar</a></li>
+                            <li><a href="product-fullwidth.html">Full Width</a></li>
+                            <li><a href="product-masonry.html">Masonry Sticky Info</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Pages</a>
+                        <ul>
+                            <li>
+                                <a href="about.html">About</a>
+
+                                <ul>
+                                    <li><a href="about.html">About 01</a></li>
+                                    <li><a href="about-2.html">About 02</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="contact.html">Contact</a>
+
+                                <ul>
+                                    <li><a href="contact.html">Contact 01</a></li>
+                                    <li><a href="contact-2.html">Contact 02</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="login.html">Login</a></li>
+                            <li><a href="faq.html">FAQs</a></li>
+                            <li><a href="404.html">Error 404</a></li>
+                            <li><a href="coming-soon.html">Coming Soon</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="blog.html">Blog</a>
+
+                        <ul>
+                            <li><a href="blog.html">Classic</a></li>
+                            <li><a href="blog-listing.html">Listing</a></li>
+                            <li>
+                                <a href="#">Grid</a>
+                                <ul>
+                                    <li><a href="blog-grid-2cols.html">Grid 2 columns</a></li>
+                                    <li><a href="blog-grid-3cols.html">Grid 3 columns</a></li>
+                                    <li><a href="blog-grid-4cols.html">Grid 4 columns</a></li>
+                                    <li><a href="blog-grid-sidebar.html">Grid sidebar</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Masonry</a>
+                                <ul>
+                                    <li><a href="blog-masonry-2cols.html">Masonry 2 columns</a></li>
+                                    <li><a href="blog-masonry-3cols.html">Masonry 3 columns</a></li>
+                                    <li><a href="blog-masonry-4cols.html">Masonry 4 columns</a></li>
+                                    <li><a href="blog-masonry-sidebar.html">Masonry sidebar</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Mask</a>
+                                <ul>
+                                    <li><a href="blog-mask-grid.html">Blog mask grid</a></li>
+                                    <li><a href="blog-mask-masonry.html">Blog mask masonry</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Single Post</a>
+                                <ul>
+                                    <li><a href="single.html">Default with sidebar</a></li>
+                                    <li><a href="single-fullwidth.html">Fullwidth no sidebar</a></li>
+                                    <li><a href="single-fullwidth-sidebar.html">Fullwidth with sidebar</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="elements-list.html">Elements</a>
+                        <ul>
+                            <li><a href="elements-products.html">Products</a></li>
+                            <li><a href="elements-typography.html">Typography</a></li>
+                            <li><a href="elements-titles.html">Titles</a></li>
+                            <li><a href="elements-banners.html">Banners</a></li>
+                            <li><a href="elements-product-category.html">Product Category</a></li>
+                            <li><a href="elements-video-banners.html">Video Banners</a></li>
+                            <li><a href="elements-buttons.html">Buttons</a></li>
+                            <li><a href="elements-accordions.html">Accordions</a></li>
+                            <li><a href="elements-tabs.html">Tabs</a></li>
+                            <li><a href="elements-testimonials.html">Testimonials</a></li>
+                            <li><a href="elements-blog-posts.html">Blog Posts</a></li>
+                            <li><a href="elements-portfolio.html">Portfolio</a></li>
+                            <li><a href="elements-cta.html">Call to Action</a></li>
+                            <li><a href="elements-icon-boxes.html">Icon Boxes</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav><!-- End .mobile-nav -->
+
+            <div class="social-icons">
+                <a href="#" class="social-icon" target="_blank" title="Facebook"><i class="icon-facebook-f"></i></a>
+                <a href="#" class="social-icon" target="_blank" title="Twitter"><i class="icon-twitter"></i></a>
+                <a href="#" class="social-icon" target="_blank" title="Instagram"><i class="icon-instagram"></i></a>
+                <a href="#" class="social-icon" target="_blank" title="Youtube"><i class="icon-youtube"></i></a>
+            </div><!-- End .social-icons -->
+        </div><!-- End .mobile-menu-wrapper -->
+    </div><!-- End .mobile-menu-container -->
+
+    <!-- Sign in / Register Modal -->
+    <div class="modal fade" id="signin-modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="icon-close"></i></span>
+                    </button>
+
+                    <div class="form-box">
+                        <div class="form-tab">
+                            <ul class="nav nav-pills nav-fill" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="signin-tab" data-toggle="tab" href="#signin" role="tab" aria-controls="signin" aria-selected="true">Sign In</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="register-tab" data-toggle="tab" href="#register" role="tab" aria-controls="register" aria-selected="false">Register</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="tab-content-5">
+                                <div class="tab-pane fade show active" id="signin" role="tabpanel" aria-labelledby="signin-tab">
+                                    <form action="#">
+                                        <div class="form-group">
+                                            <label for="singin-email">Username or email address *</label>
+                                            <input type="text" class="form-control" id="singin-email" name="singin-email" required>
+                                        </div><!-- End .form-group -->
+
+                                        <div class="form-group">
+                                            <label for="singin-password">Password *</label>
+                                            <input type="password" class="form-control" id="singin-password" name="singin-password" required>
+                                        </div><!-- End .form-group -->
+
+                                        <div class="form-footer">
+                                            <button type="submit" class="btn btn-outline-primary-2">
+                                                <span>LOG IN</span>
+                                                <i class="icon-long-arrow-right"></i>
+                                            </button>
+
+                                            <div class="custom-control custom-checkbox">
+                                                <input type="checkbox" class="custom-control-input" id="signin-remember">
+                                                <label class="custom-control-label" for="signin-remember">Remember Me</label>
+                                            </div><!-- End .custom-checkbox -->
+
+                                            <a href="#" class="forgot-link">Forgot Your Password?</a>
+                                        </div><!-- End .form-footer -->
+                                    </form>
+                                    <div class="form-choice">
+                                        <p class="text-center">or sign in with</p>
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <a href="#" class="btn btn-login btn-g">
+                                                    <i class="icon-google"></i>
+                                                    Login With Google
+                                                </a>
+                                            </div><!-- End .col-6 -->
+                                            <div class="col-sm-6">
+                                                <a href="#" class="btn btn-login btn-f">
+                                                    <i class="icon-facebook-f"></i>
+                                                    Login With Facebook
+                                                </a>
+                                            </div><!-- End .col-6 -->
+                                        </div><!-- End .row -->
+                                    </div><!-- End .form-choice -->
+                                </div><!-- .End .tab-pane -->
+                                <div class="tab-pane fade" id="register" role="tabpanel" aria-labelledby="register-tab">
+                                    <form action="#">
+                                        <div class="form-group">
+                                            <label for="register-email">Your email address *</label>
+                                            <input type="email" class="form-control" id="register-email" name="register-email" required>
+                                        </div><!-- End .form-group -->
+
+                                        <div class="form-group">
+                                            <label for="register-password">Password *</label>
+                                            <input type="password" class="form-control" id="register-password" name="register-password" required>
+                                        </div><!-- End .form-group -->
+
+                                        <div class="form-footer">
+                                            <button type="submit" class="btn btn-outline-primary-2">
+                                                <span>SIGN UP</span>
+                                                <i class="icon-long-arrow-right"></i>
+                                            </button>
+
+                                            <div class="custom-control custom-checkbox">
+                                                <input type="checkbox" class="custom-control-input" id="register-policy" required>
+                                                <label class="custom-control-label" for="register-policy">I agree to the <a href="#">privacy policy</a> *</label>
+                                            </div><!-- End .custom-checkbox -->
+                                        </div><!-- End .form-footer -->
+                                    </form>
+                                    <div class="form-choice">
+                                        <p class="text-center">or sign in with</p>
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <a href="#" class="btn btn-login btn-g">
+                                                    <i class="icon-google"></i>
+                                                    Login With Google
+                                                </a>
+                                            </div><!-- End .col-6 -->
+                                            <div class="col-sm-6">
+                                                <a href="#" class="btn btn-login  btn-f">
+                                                    <i class="icon-facebook-f"></i>
+                                                    Login With Facebook
+                                                </a>
+                                            </div><!-- End .col-6 -->
+                                        </div><!-- End .row -->
+                                    </div><!-- End .form-choice -->
+                                </div><!-- .End .tab-pane -->
+                            </div><!-- End .tab-content -->
+                        </div><!-- End .form-tab -->
+                    </div><!-- End .form-box -->
+                </div><!-- End .modal-body -->
+            </div><!-- End .modal-content -->
+        </div><!-- End .modal-dialog -->
+    </div><!-- End .modal -->
+
+    <!-- Plugins JS File -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery.hoverIntent.min.js"></script>
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <script src="assets/js/superfish.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/bootstrap-input-spinner.js"></script>
+    <script src="assets/js/jquery.elevateZoom.min.js"></script>
+    <script src="assets/js/bootstrap-input-spinner.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+<br>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <footer id="dk-footer" class="dk-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-lg-4">
+                        <div class="dk-footer-box-info">
+                           
+                            </a>
+                            <p class="footer-info-text">
+                                Making a site for helping people to shop differently
+                            </p>
+                            <div class="footer-social-link">
+                                <h3>Follow For Help</h3>
+                                <ul>
+                                    <li>
+                                        <a href="https://www.facebook.com/coronavirus_info">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/covidnewsbymib?lang=en">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.mohfw.gov.in/pdf/coronvavirushelplinenumber.pdf">
+                                            <i class="fa fa-youtube"></i>
+                                        </a>
+                                    </li>
+                                   
+                                    <li>
+                                        <a href="https://about.instagram.com/blog/announcements/coronavirus-keeping-people-safe-informed-and-supported-on-instagram">
+                                            <i class="fa fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="footer-awarad">
+                            <img src="images/icon/best.png" alt="">
+                            <p>#Start Shopping<p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-12 col-lg-8">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="contact-us">
+                                    <div class="contact-icon">
+                                        <i class="fa fa-map-o" aria-hidden="true"></i>
+                                    </div>
+                                    
+                                    <div class="contact-info">
+                                        <h3>shop</h3>
+                                        <p>--For all--</p>
+                                    </div>
+                                    
+                                </div>
+                                
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <div class="contact-us contact-us-last">
+                                    <div class="contact-icon">
+                                        <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                                    </div>
+                                    
+                                    <div class="contact-info">
+                                        <h3>+91 11 23978046 (Toll Free- 1075)</h3>
+                                        <p>Helpline</p>
+                                    </div>
+                                    
+                                </div>
+                                
+                            </div>
+                           
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-md-12 col-lg-6">
+                                <div class="footer-widget footer-left-widget">
+                                    <div class="section-heading">
+                                        <h3>Useful Links</h3>
+                                        <span class="animate-border border-black"></span>
+                                    </div>
+                                    <ul>
+                                        <li>
+                                            <a href="https://selfregistration.cowin.gov.in/">Privacy Policy</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://prod-cdn.preprod.co-vin.in/assets/docx/CoWINAPIGuidelinesFinal.pdf">Terms and <br>
+                                            Conditions</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://prod-cdn.preprod.co-vin.in/assets/pdf/Dos_and_Donts_for_Citizens.pdf">Shipping Policy</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://verify.cowin.gov.in/">Journal</a>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li>
+                                            <a href="https://dashboard.cowin.gov.in/">Statistics</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.cdc.gov/coronavirus/2019-ncov/vaccines/expect/after.html">our stores</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://sandbox.cowin.gov.in/">Payment</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.cowin.gov.in/faq">Faq</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                               
+                            </div>
+                           
+                            <div class="col-md-12 col-lg-6">
+                                <div class="footer-widget">
+                                    <div class="section-heading">
+                                        <h3>Our Motive</h3>
+                                        <span class="animate-border border-black"></span>
+                                    </div>
+                                    <p>
+                                    Making a site for helping shopping expiriance beautiful</p>
+                                    <form action="#">
+                                        <div class="form-row">
+                                            <div class="col dk-footer-form">
+                                                <input type="email" class="form-control" placeholder="Home">
+                                                <button type="submit">
+                                                    <i class="fa fa-send"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                    
+                                </div>
+                                
+                            </div>
+                           
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                
+            </div>
+            
+    
+    
+            <div class="copyright">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span>Copyright © 2021 . All Rights Reserved</span>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <div class="copyright-menu">
+                                <ul>
+                                    <li>
+                                        <a href="#">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Terms</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Privacy Policy </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                
+            </div>
+            
+            <div id="back-to-top" class="back-to-top">
+            <a href="#">
+               
+                </a>
+            </div>
+            
+    </footer>
+
+</body>
+
+
+<!-- molla/product.html  22 Nov 2019 09:55:05 GMT -->
+</html>
